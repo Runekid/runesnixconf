@@ -18,6 +18,7 @@
     gparted
     htop
     prismlauncher
+    appimage-run
   ];
 
   #enable flatpak
