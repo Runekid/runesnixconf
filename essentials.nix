@@ -19,6 +19,9 @@
     htop
     prismlauncher
     appimage-run
+    tor-browser
+    pharo
+    logseq
   ];
 
   #enable flatpak
