@@ -19,6 +19,11 @@
     htop
     prismlauncher
     appimage-run
+    vscode
+    jetbrains-toolbox
+    tor-browser
+    jdk24
+    maven
   ];
 
   #enable flatpak
