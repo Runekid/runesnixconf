@@ -27,6 +27,7 @@
     tor-browser
     jdk24
     maven
+    novelwriter
   ];
 
   #enable flatpak
