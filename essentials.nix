@@ -25,9 +25,10 @@
     vscode
     jetbrains-toolbox
     tor-browser
-    jdk24
     maven
     novelwriter
+    ungoogled-chromium
+    javaPackages.compiler.temurin-bin.jre-23
   ];
 
   #enable flatpak
