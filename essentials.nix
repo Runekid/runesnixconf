@@ -29,6 +29,7 @@
     novelwriter
     ungoogled-chromium
     javaPackages.compiler.temurin-bin.jre-23
+    docker-compose
   ];
 
   #enable flatpak
@@ -44,4 +45,11 @@
   nixpkgs.config.permittedInsecurePackages = [
   "electron-27.3.11"
   ];
+
+  virtualisation.docker.enable = true;
+
+  virtualisation.docker.rootless = {
+    enable = true;
+    setSocketVariable = true;
+  };
 }
