@@ -30,6 +30,10 @@
     ungoogled-chromium
     javaPackages.compiler.temurin-bin.jre-23
     docker-compose
+    unityhub
+    ghostty
+    zsh
+    git-lfs
   ];
 
   #enable flatpak
