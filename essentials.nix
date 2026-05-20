@@ -12,8 +12,8 @@
     thunderbird
     fastfetch
     steam-run
-    python3Full
     obs-studio
+    python3
     input-remapper
     gparted
     htop
@@ -28,12 +28,13 @@
     maven
     novelwriter
     ungoogled-chromium
-    javaPackages.compiler.temurin-bin.jre-23
+    javaPackages.compiler.temurin-bin.jre-25
     docker-compose
     unityhub
     ghostty
     zsh
     git-lfs
+    godot
   ];
 
   #enable flatpak
