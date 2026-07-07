@@ -13,7 +13,7 @@
     fastfetch
     steam-run
     obs-studio
-    python3
+#    python3
     input-remapper
     gparted
     htop
@@ -21,15 +21,12 @@
     appimage-run
     tor-browser
     pharo
-    logseq
     vscode
     jetbrains-toolbox
-    tor-browser
     maven
     novelwriter
-    ungoogled-chromium
-    javaPackages.compiler.temurin-bin.jre-25
     docker-compose
+    javaPackages.compiler.openjdk25
     unityhub
     ghostty
     zsh
@@ -48,7 +45,6 @@
   };
   
   nixpkgs.config.permittedInsecurePackages = [
-  "electron-27.3.11"
   ];
 
   virtualisation.docker.enable = true;
