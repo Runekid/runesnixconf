@@ -32,8 +32,17 @@
     zsh
     git-lfs
     godot
+    nodejs
+    postman
+    unzip
+    jdk25
   ];
 
+  nix.settings.experimental-features = [
+    "nix-command"
+    "flakes"
+  ];
+  
   #enable flatpak
   services.flatpak.enable = true;
 
